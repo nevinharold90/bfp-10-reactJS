@@ -1,16 +1,58 @@
-# React + Vite
+# React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses **React 19** and **Vite 6** for a fast, modern web development experience.  
+It includes **Hot Module Replacement (HMR)**, **Tailwind CSS 4**, and **ESLint** for code quality.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React 19
+- ⚡ Vite 6 with Hot Module Replacement (HMR)
+- 🎨 Tailwind CSS 4
+- 🔎 ESLint for linting
+- 🔥 Fast Refresh using Babel (`@vitejs/plugin-react`)
 
-## Expanding the ESLint configuration
+## 📝 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1️⃣ Clone the repo
 
-# Instruction
-Repo first then: 
-- npm install
+```bash
+git clone <your-repo-url>
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start the development server
+
+```bash
+npm run dev
+```
+
+Your app will be running at: [http://localhost:5173](http://localhost:5173)
+
+## 🛠 Scripts
+
+```bash
+npm run dev       # Start the development server
+npm run build     # Build for production
+npm run preview   # Preview the production build
+npm run lint      # Lint the codebase
+```
+
+## 📚 ESLint Notes
+
+For larger or production applications, we recommend using **TypeScript** and enabling type-aware linting rules.
+
+Check out the [React + TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and the [`typescript-eslint`](https://typescript-eslint.io) project.
+
+## 🧩 Additional Info
+
+- **React Fast Refresh** is powered by Babel (`@vitejs/plugin-react`).
+- Styling uses **Tailwind CSS** with PostCSS and Autoprefixer.
+
+---
+
+_This project was bootstrapped using Vite’s React template._
