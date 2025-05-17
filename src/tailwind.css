@@ -1,1 +1,45 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .bg-bfp-yellow {
+    background-color: #fece3d;
+  }
+
+  .hover\:bg-bfp-yellow:hover {
+    background-color: #fece3d;
+  }
+
+  .bg-bfp-orange {
+    background-color: #e2611d;
+  }
+
+    .hover\:bg-bfp-orange:hover {
+    background-color: #e2611d;
+  }
+
+    .hover\:text-bfp-brown:hover {
+    color: #872310;
+  }
+
+  .bg-bfp-brown {
+    background-color: #872310;
+  }
+
+  .text-bfp-yellow {
+    color: #fece3d;
+  }
+
+  .text-bfp-orange {
+    color: #e2611d;
+  }
+
+  .text-bfp-brown {
+    color: #872310;
+  }
+}
