@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-import logo from '../assets/logo/BFP-OFFICIAL-LOGO.png';
-import PixelGrid from '../components/PixelGrid'; // 👈 Import it
+import BfpLogo from '../assets/logo/BFP-OFFICIAL-LOGO.png';
+import Bfp10Logo from '../assets/logo/BFP10.jpg';
+
+import PixelGrid from '../components/PixelGrid'; 
 
 const Login = () => {
   useEffect(() => {
@@ -10,10 +12,18 @@ const Login = () => {
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-white text-black">
       <PixelGrid/>
-  <div className="relative z-10 w-full max-w-sm p-8 bg-white rounded-lg shadow-md backdrop-blur-sm bg-opacity-90">
-        <div className="flex justify-center items-center flex-col mb-6">
-          <img src={logo} alt="BFP Logo" className="h-50 w-50" />
-          <h1 className='mt-2 font-bold text-xl'>BUREAU OF FIRE PROTECTION</h1>
+      <div className="relative z-10 w-full max-w-sm p-10 bg-white rounded-lg shadow-lg backdrop-blur-sm bg-opacity-90 items-center justify-center">
+        <div className="flex justify-center items-center flex-col mb-5">
+          <div className="flex flex-row gap-10 mb-5">
+            <img src={BfpLogo} alt="BFP Logo" className="h-36 w-36" />
+            <img src={Bfp10Logo} alt="BFP Logo" className="h-35 w-35" />
+          </div>
+          <h1 className='mt-2 text-center text-bfp-orange font-extrabold text-xl'>
+            BUREAU OF FIRE PROTECTION
+          </h1>
+          <h1 className='mt-2 text-center text-bfp-orange font-extrabold text-2xl'>
+            CAGAYAN DE ORO DISTRICT
+          </h1>
         </div>
         <form>
           <div>
