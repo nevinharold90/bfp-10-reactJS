@@ -23,13 +23,13 @@
     background-color: #e2611d;
   }
 
-    .hover\:text-bfp-brown:hover {
-    color: #872310;
-  }
-
   .bg-bfp-brown {
     background-color: #872310;
   }
+  .hover\:bg-bfp-brown:hover {
+    background-color: #872310;
+  }
+
 
   .text-bfp-yellow {
     color: #fece3d;
@@ -40,6 +40,9 @@
   }
 
   .text-bfp-brown {
+    color: #872310;
+  }
+  .hover\:text-bfp-brown:hover {
     color: #872310;
   }
 }
